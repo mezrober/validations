@@ -3,6 +3,7 @@
 
 def validate_user(username, minlen):
   """Checks if the received username matches the required conditions."""
+  """Just adding a comment her for learning purposes"""  
   if type(username) != str:
     raise TypeError("username must be a string")
   if minlen < 1:
